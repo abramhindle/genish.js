@@ -6,7 +6,7 @@ let gen  = require('./gen.js'),
     memo = require('./memo.js')
 
 let proto = {
-  basename:'clip',
+  basename:'clamp',
 
   gen() {
     let code,
